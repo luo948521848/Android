@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.library.luo.android.Main3Activity">
+
+    <RelativeLayout
+        android:layout_width="420dp"
+        android:layout_height="610dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/titlebar_big" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="420dp"
+            android:layout_height="580dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/file_list_bg"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="420dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView8"
+            android:layout_marginBottom="22dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/bookshelf_layer_center"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="420dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="32dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/bookshelf_layer_center"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="420dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/titlebar_big"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <Button
+            android:id="@+id/button"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageButton3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="上一页"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button"
+            android:layout_alignTop="@+id/imageView4"
+            android:text="下一页"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_centerVertical="true"
+            android:text="书名一"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView9"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_centerVertical="true"
+            android:text="书名二"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView10"
+            android:layout_alignStart="@+id/imageView10"
+            android:layout_below="@+id/imageView5"
+            android:text="书名三"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView10"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignStart="@+id/textView9"
+            android:text="书名四"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/textView12"
+            android:layout_toStartOf="@+id/textView12"
+            android:scaleType="fitXY"
+
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_alignTop="@+id/imageView8"
+            android:layout_toEndOf="@+id/textView12"
+            android:layout_toRightOf="@+id/textView12"
+            android:scaleType="fitXY"
+
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_alignTop="@+id/imageView5"
+            android:scaleType="fitXY"
+
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="80dp"
+            android:layout_height="115dp"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_alignTop="@+id/imageView10"
+            android:scaleType="fitXY"
+
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:text="我的图书馆"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView8"
+            android:layout_alignRight="@+id/textView8"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_toEndOf="@+id/textView12"
+            android:layout_toRightOf="@+id/textView12"
+            app:srcCompat="@android:drawable/ic_menu_today" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
