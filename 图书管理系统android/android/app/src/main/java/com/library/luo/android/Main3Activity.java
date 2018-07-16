@@ -73,7 +73,7 @@ public class Main3Activity extends AppCompatActivity {
     private int page=1;
     private int bookIndex=0;
     private int maxbookIndex=0;
-    private String url="http://47.94.101.75:8080//PhoneLibraryM/lookbooks.do";
+    private String url="http://47.94.101.75//PhoneLibraryM/lookbooks.do";
     @SuppressLint("HandlerLeak")
     Handler handler=new Handler(){//消息机制，用来在子线程中更新UI
         @Override
@@ -166,7 +166,7 @@ public class Main3Activity extends AppCompatActivity {
                                 b.setBookprice(bookprice);
                                 b.setBookwriter(bookwriter);
                                 list.add(b);
-                                String path="http://47.94.101.75:8080/PhoneLibrarya/img/"+b.getBookid()+".jpg";
+                                String path="http://47.94.101.75/PhoneLibraryM/img/"+b.getBookid()+".jpg";
                                 map.put(bookid,new HttpBitMap().GetBitmap(path));
                             }
 

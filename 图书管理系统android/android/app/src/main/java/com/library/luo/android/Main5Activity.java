@@ -83,7 +83,7 @@ public class Main5Activity extends AppCompatActivity {
 
         // image
       Thread thread=  new Thread(new Runnable(){
-            String path="http://47.94.101.75:8080/PhoneLibrarya/img/"+bookid+".jpg";
+            String path="http://47.94.101.75:8080/PhoneLibraryM/img/"+bookid+".jpg";
             @Override
             public void run() {
 

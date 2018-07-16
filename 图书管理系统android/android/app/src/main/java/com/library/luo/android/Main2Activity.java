@@ -50,7 +50,7 @@ public class Main2Activity extends AppCompatActivity {
     private String name=null;
     private String password=null;
     private String location=null;
-    private String url="http://47.94.101.75:8080/PhoneLibraryM/login.do";
+    private String url="http://47.94.101.75/PhoneLibraryM/login.do";
     private Integer time=5000;
     @SuppressLint("HandlerLeak")
 

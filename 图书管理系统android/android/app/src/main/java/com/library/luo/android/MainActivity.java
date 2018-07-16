@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private Button register=null;
     private EditText nameEditText=null;
     private EditText passwordEditText=null;
-    private String url="http://47.94.101.75:8080/PhoneLibraryM/login.do";
+    private String url="http://47.94.101.75/PhoneLibraryM/login.do";
     private Integer time=8000;
     String name=null;
     String password=null;

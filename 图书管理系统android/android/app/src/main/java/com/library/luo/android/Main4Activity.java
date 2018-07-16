@@ -29,7 +29,7 @@ public class Main4Activity extends AppCompatActivity {
 
     private String bookname;
     private EditText editText=null;
-    private String url="http://47.94.101.75:8080/PhoneLibraryM/lookbook.do";
+    private String url="http://47.94.101.75/PhoneLibraryM/lookbook.do";
 
     @SuppressLint("HandlerLeak")
     Handler handler=new Handler(){//消息机制，用来在子线程中更新UI
